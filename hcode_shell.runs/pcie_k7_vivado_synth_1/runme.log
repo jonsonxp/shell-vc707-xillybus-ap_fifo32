@@ -1,0 +1,142 @@
+
+*** Running vivado
+    with args -log pcie_k7_vivado.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pcie_k7_vivado.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source pcie_k7_vivado.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1253.715 ; gain = 82.004 ; free physical = 1383 ; free virtual = 37036
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/synth/pcie_k7_vivado.v:66]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie2_top' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie2_top.v:59]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_core_top' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_core_top.v:65]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single' [/opt2/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single' (1#1) [/opt2/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_top' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_top' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_top.v:68]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_rx' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_rx_pipeline' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_pipeline.v:70]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_rx_pipeline' (2#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_pipeline.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_rx_null_gen' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_null_gen.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_rx_null_gen' (3#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx_null_gen.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_rx' (4#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_rx.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_tx' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx.v:70]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_tx_thrtl_ctl' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_thrtl_ctl.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_tx_thrtl_ctl' (5#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_thrtl_ctl.v:71]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_axi_basic_tx_pipeline' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_pipeline.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_tx_pipeline' (6#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx_pipeline.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_tx' (7#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_tx.v:70]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_axi_basic_top' (8#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_axi_basic_top.v:68]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_7x' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_bram_top_7x' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_top_7x.v:72]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_brams_7x' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_brams_7x.v:65]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_bram_7x' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'BRAM_TDP_MACRO' [/opt2/Xilinx/Vivado/2017.1/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E1' [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E1' (9#1) [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'BRAM_TDP_MACRO' (10#1) [/opt2/Xilinx/Vivado/2017.1/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_bram_7x' (11#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_7x.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_brams_7x' (12#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_brams_7x.v:65]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_bram_top_7x' (13#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_bram_top_7x.v:72]
+INFO: [Synth 8-638] synthesizing module 'PCIE_2_1' [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'PCIE_2_1' (14#1) [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_7x' (15#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_pipe_pipeline' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_pipeline.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_pipe_lane' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_lane.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_pipe_lane' (16#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_lane.v:63]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pcie_pipe_misc' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_misc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_pipe_misc' (17#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_misc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_pipe_pipeline' (18#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_pipe_pipeline.v:63]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie_top' (19#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_top' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_rx_valid_filter_7x' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_rx_valid_filter_7x.v:62]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_rx_valid_filter_7x' (20#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_rx_valid_filter_7x.v:62]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_wrapper' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_wrapper.v:156]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_reset' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_reset.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_reset' (21#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_reset.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_qpll_reset' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_qpll_reset.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_qpll_reset' (22#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_qpll_reset.v:66]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_rate' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_rate.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_rate' (23#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_rate.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_drp' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_drp.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_drp' (24#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_drp.v:66]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_eq' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_eq.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_rxeq_scan' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_rxeq_scan.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_rxeq_scan' (25#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_rxeq_scan.v:66]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_eq' (26#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_eq.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_common' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_common.v:56]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_qpll_drp' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_qpll_drp.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_qpll_drp' (27#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_qpll_drp.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_qpll_wrapper' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_qpll_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_COMMON' [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:11315]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_COMMON' (28#1) [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:11315]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gtp_cpllpd_ovrd' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gtp_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gtp_cpllpd_ovrd' (29#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gtp_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_qpll_wrapper' (30#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_qpll_wrapper.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_common' (31#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_common.v:56]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_user' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_user.v:67]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_user' (32#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_user.v:67]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_pipe_sync' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_sync' (33#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gt_wrapper' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'GTXE2_CHANNEL' [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:10642]
+INFO: [Synth 8-256] done synthesizing module 'GTXE2_CHANNEL' (34#1) [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:10642]
+INFO: [Synth 8-638] synthesizing module 'pcie_k7_vivado_gtx_cpllpd_ovrd' [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gtx_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gtx_cpllpd_ovrd' (35#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gtx_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_wrapper' (36#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (37#1) [/opt2/Xilinx/Vivado/2017.1/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pipe_wrapper' (38#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pipe_wrapper.v:156]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_gt_top' (39#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_gt_top.v:62]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_core_top' (40#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_core_top.v:65]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado_pcie2_top' (41#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/source/pcie_k7_vivado_pcie2_top.v:59]
+INFO: [Synth 8-256] done synthesizing module 'pcie_k7_vivado' (42#1) [/home/cho/test/testfic3/shell-vc707-xillybus-ap_fifo32/core/pcie_k7_vivado/synth/pcie_k7_vivado.v:66]
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1330.215 ; gain = 158.504 ; free physical = 1263 ; free virtual = 36919
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1330.215 ; gain = 158.504 ; free physical = 1213 ; free virtual = 36868
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1839.555 ; gain = 0.004 ; free physical = 1105 ; free virtual = 36676
+Finished Constraint Validation : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1839.555 ; gain = 667.844 ; free physical = 1202 ; free virtual = 36774
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1839.555 ; gain = 667.844 ; free physical = 1202 ; free virtual = 36774
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1839.555 ; gain = 667.844 ; free physical = 1239 ; free virtual = 36811
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1839.555 ; gain = 667.844 ; free physical = 1139 ; free virtual = 36711
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:27 . Memory (MB): peak = 1839.555 ; gain = 667.844 ; free physical = 1391 ; free virtual = 36966
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:37 . Memory (MB): peak = 1879.535 ; gain = 707.824 ; free physical = 1219 ; free virtual = 36795
+Finished Timing Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:42 . Memory (MB): peak = 1921.559 ; gain = 749.848 ; free physical = 1052 ; free virtual = 36629
+Finished Technology Mapping : Time (s): cpu = 00:01:41 ; elapsed = 00:01:53 . Memory (MB): peak = 1969.973 ; gain = 798.262 ; free physical = 1589 ; free virtual = 37146
+Finished IO Insertion : Time (s): cpu = 00:01:42 ; elapsed = 00:01:55 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2271 ; free virtual = 37827
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:42 ; elapsed = 00:01:55 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2271 ; free virtual = 37828
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:44 ; elapsed = 00:01:57 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2288 ; free virtual = 37845
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:45 ; elapsed = 00:01:57 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2297 ; free virtual = 37854
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:45 ; elapsed = 00:01:57 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2265 ; free virtual = 37821
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:45 ; elapsed = 00:01:57 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2233 ; free virtual = 37790
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     1|
+|2     |CARRY4        |   102|
+|3     |GTXE2_CHANNEL |     8|
+|4     |GTXE2_COMMON  |     2|
+|5     |LUT1          |   406|
+|6     |LUT2          |   437|
+|7     |LUT3          |   630|
+|8     |LUT4          |   402|
+|9     |LUT5          |  1162|
+|10    |LUT6          |  1133|
+|11    |MUXF7         |   112|
+|12    |MUXF8         |     8|
+|13    |PCIE_2_1      |     1|
+|14    |RAMB36E1      |     8|
+|15    |SRL16E        |     6|
+|16    |SRLC32E       |    56|
+|17    |FDCE          |     9|
+|18    |FDPE          |     2|
+|19    |FDRE          |  5548|
+|20    |FDSE          |   160|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:45 ; elapsed = 00:01:57 . Memory (MB): peak = 1969.977 ; gain = 798.266 ; free physical = 2233 ; free virtual = 37790
+synth_design: Time (s): cpu = 00:01:57 ; elapsed = 00:02:20 . Memory (MB): peak = 2542.477 ; gain = 1421.234 ; free physical = 2885 ; free virtual = 38443

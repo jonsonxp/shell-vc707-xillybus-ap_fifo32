@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="pcie_k7_vivado_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1500455237">
+  <File Type="VDS-TIMING-PB" Name="pcie_k7_vivado_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="pcie_k7_vivado_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="pcie_k7_vivado.vds"/>
+  <File Type="PA-TCL" Name="pcie_k7_vivado.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="pcie_k7_vivado_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="pcie_k7_vivado_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="pcie_k7_vivado_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="pcie_k7_vivado.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pcie_k7_vivado">
+    <File Path="$PPRDIR/core/pcie_k7_vivado/pcie_k7_vivado.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/core/pcie_k7_vivado.xcix">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="pcie_k7_vivado"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pcie_k7_vivado">
+    <File Path="$PPRDIR/core/pcie_k7_vivado/pcie_k7_vivado.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/core/pcie_k7_vivado.xcix">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="pcie_k7_vivado"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
